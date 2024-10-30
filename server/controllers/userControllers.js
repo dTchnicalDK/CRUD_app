@@ -14,7 +14,7 @@ export const createUser = async (req, res) => {
   }
 };
 
-//------------------------------controller to edit user data--------------
+//------------------------------controller to get all user data--------------
 export const getAll = async (req, res) => {
   try {
     const users = await User.find();
